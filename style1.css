@@ -1,0 +1,113 @@
+@charset "utf-8";
+	.wrapper {
+		background-color: #06F;
+		float: none;
+		height: 1000px;
+		width: 800px;
+		margin-right: auto;
+		margin-left: auto;
+		color: #FFF;
+	}
+	.photo {
+		height: 300px;
+		width: 800px;
+		background-color: #F00;
+		float: left;
+	}
+	.text {
+		background-color: #9F0;
+		height: 400px;
+		width: 800px;
+		float: left;
+	}
+	.footer {
+		background-color: #666;
+		height: 100px;
+		width: 800px;
+		float: left;
+	}
+	.text1 {
+		background-color: #666;
+		float: left;
+		height: 100px;
+		width: 800px;
+	}
+	.text11 {
+		background-color: #666;
+		float: left;
+		height: 100px;
+		width: 500px;
+	}
+	.text12 {
+		background-color: #CCC;
+		float: left;
+		height: 100px;
+		width: 300px;
+	}
+	
+	
+	
+	
+	
+	
+	.button {
+		float: left;
+		width: 19.7%;
+		height: 100px;
+		color: #DBDB90;
+		border-right-width: thin;
+		border-right-style: solid;
+		border-right-color: #FFF;
+		background-color: #666;
+	}
+	.button a {
+		font-size: 18px;
+		font-weight: 400;
+		color: #FFF;
+		text-align: center;
+		float: left;
+		height: 100%;
+		width: 100%;
+		padding-top: 20px;
+		background-color: #666;
+	}
+	
+	
+	.navbar {
+		background-color: #666;
+		float: left;
+		height: 100px;
+		width: 800px;
+	}
+	
+	.animate1{
+		background-color:#999;
+		float:left;
+		height:50px;
+		width:500px;
+	}
+	.animate2{
+		background-color:#000;
+		float:left;
+		height:50px;
+		width:300px;
+	}
+	.animate3{
+		background-color:#0FF;
+		float:left;
+		height:200px;
+		width:200px;
+		transition-property:all;
+		transition-duration:3s;
+	}
+
+	.ani-color{
+		width:200px;
+		height:200px;
+		float:left;
+		background-color:blue;
+		animation-name:animate-color;
+		animation-duration:4s;
+		animation-timing-function:ease-in-out;
+		animation-iteration-count:infinite;
+	}
